@@ -1,1 +1,1 @@
-Hi there, welcome my first intetactive live webpage.
+Hi there, welcome to my first live and interactive webpage.
