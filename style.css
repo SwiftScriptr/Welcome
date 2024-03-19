@@ -1,25 +1,25 @@
 .main{
-
-
-
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
 
 .hero{
-
-
+  display: flex;
+  flex:1 1 0;
+  justify-content: space-between;
 }
 
 
 .header{
-
-
-  
+  display: inline-flex:  
 }
 
 
 .footer{
+  display: inline-flex;
 
 }
 
