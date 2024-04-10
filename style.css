@@ -29,12 +29,19 @@ body{
   padding: 10px 50px 50px;
   flex-direction: column;
   justify-content:center;
+  font-size:48px;
+  font-weight:bolder;
+}
+
+.footer,.links a,.subh,.info2,.notice,button{
+	font-size:18px;
+	font-weight:normal;
 }
 
 .header{
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: baseline;
   width:1000px;
   flex-shrink:1;
 }
@@ -54,9 +61,8 @@ body{
   width:1000px;
 }
 
-.header .logo{
-  display: flex;
-  margin: 0 20px;
+.logo,.credit{
+	font-size:24px;
 }
 
 .links a{
@@ -64,14 +70,15 @@ body{
   text-decoration: none;
 }
 
-.h,.subh{
+.h,.subh,.logo{
   display: flex;
   margin-left:20px;
 }
 
-.u button, button{
+button{
   display: flex;
   background-color:#3882F6;
+  font-weight:bold;
   color:#F9FAF8;
   border-radius:5px;
   margin:20px;
@@ -103,6 +110,10 @@ body{
   gap:50px;
 }
 
+.mainh,.quote{
+	font-size:36px;
+}
+
 .info2{
   display: flex;
   flex-direction:column;
@@ -126,18 +137,34 @@ body{
 
 .quote{
 	background-color:#E5E7EB;
+	flex-direction:column;
 	display:flex;
 	color: #1F2937;
 	padding:5px 10px;
 	height:200px;
-	align-items: center;
 	justify-content:center;
+	font-style:italic;
+}
+
+.credit{
+	font-style:normal;
+	font-weight:bold;
+	justify-content:right;
+}
+
+.truth,.credit{
+	display:flex;
+}
+
+.notice{
+	font-weight:bold;
 }
 
 #pop{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
+	color:
 }
 
 .up{
@@ -149,16 +176,17 @@ body{
 .note{
 	display:flex;
 	background-color:#3882F6;
+	color:#F9FAF8;
 	border-radius:10px;
 	width: 500px;
-	padding:10px 20px;
+	padding:10px 50px;
 	justify-content:space-between;
 	align-content:center;
 }
+
 
 .footer{
   display: flex;
   justify-content: center;
   padding: 0 50px;
 }
-
