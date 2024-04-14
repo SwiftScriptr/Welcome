@@ -26,9 +26,10 @@ body,.hero,.u,.main,.info2,.quote,#pop{
 	justify-content:center;
 }
 
-section,button{
+section{
 	height:max-content;
 	width:100vw;
+  flex:1;
 }
 
 .hero,.main,.quote,.footer,.links a{
@@ -47,7 +48,6 @@ section,button{
 .header{
   justify-content:space-between;
   margin-bottom:100px;
-  flex-shrink:1;
 }
 
 .footer,.links a,.subh,.info2,.notice,button{
@@ -57,10 +57,6 @@ section,button{
 
 .u{
   width:500px;
-}
-
-.n, button{
-  width:max-content;
 }
 
 .logo,.credit{
@@ -84,14 +80,13 @@ button{
   background-color:#3882F6;
   color:#F9FAF8;
   border-radius:5px;
-  gap:20px;
+  width: max-content;
   padding:5px 10px;
 }
 
 #space, #space img{
 	width:450px;
 	height:200px;
-	flex-grow: 1;
 }
 
 #space{
@@ -100,7 +95,7 @@ button{
 }
 
 .main{
-  background-color:#F9FAF8;
+  background-color:#FFFFFF;
   color:#1F2937;
 }
 
@@ -116,6 +111,7 @@ button{
 	font-weight:bolder;
 	margin-bottom:80px;
 }
+
 .info2{
   text-align:center;
   width:150px;
@@ -134,7 +130,6 @@ button{
 
 .quote{
 	background-color:#E5E7EB;
-	flex-direction:column;
 	color: #1F2937;
 	padding:10px 0;
 	justify-items:center;
